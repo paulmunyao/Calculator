@@ -6,7 +6,7 @@ A simple web application for a calculator.
 1)Install VScode<br>2)write your codes install a live server<br>3)push your code to the remote server
 
 ## Technology used 
-1)HTML<br>2)Javascript
+1)HTML<br>2)Javascript<br>3)Bootstrap<br>4)JQuery
 ## Support and contact
 Email:paulmunyao094@gmail.com
 
