@@ -2,9 +2,12 @@
 let add = function add(number1, number2) {
     return number1 + number2;
   };
+  jQuery("form#add").submit(function(event){
+    event.preventDefault();
   let number1 = parseInt(jQuery("#add1").val());
   let number2 = parseInt(jQuery("#add2").val());
   alert(add(number1, number2));
+  });
   
 
 
