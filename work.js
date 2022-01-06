@@ -18,8 +18,8 @@ jQuery("form#subtract").submit(function (event) {
   event.preventDefault();
   let number1 = parseInt(jQuery("#subtract1").val());
   let number2 = parseInt(jQuery("#subtract2").val());
-  let result = subtract(number, number);
-  jQuery("#output").text(result);
+  let result = subtract(number1, number2);
+  jQuery("#out").text(result);
 });
 
 //   //multiplication for multiplication it's not a must you put an intiger
