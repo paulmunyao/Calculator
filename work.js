@@ -10,13 +10,17 @@ jQuery("form#add").submit(function (event) {
   jQuery("#output").text(result);
 });
 
-//   //subtraction
-//   var subtract = function subtract(number1, number2) {
-//     return number1 - number2;
-//   };
-//   var number1 = parseInt(prompt("Enter a number:"));
-//   var number2 = parseInt(prompt("Enter a number"));
-//   alert(subtract(number1, number2));
+//subtraction
+let subtract = function subtract(number1, number2) {
+  return number1 - number2;
+};
+jQuery("form#subtract").submit(function (event) {
+  event.preventDefault();
+  let number1 = parseInt(jQuery("#subtract1").val());
+  let number2 = parseInt(jQuery("#subtract2").val());
+  let result = subtract(number, number);
+  jQuery("#output").text(result);
+});
 
 //   //multiplication for multiplication it's not a must you put an intiger
 //   var multiply = function multiply(number1,number2) {
