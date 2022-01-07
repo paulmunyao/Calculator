@@ -34,6 +34,18 @@ jQuery("form#multiplication").submit(function (event) {
   jQuery("#outp").text(result);
 });
 
+// Division
+// let division = function division(number1, number2) {
+//   return number1 / number2;
+// };
+// jQuery("form#multiplication").submit(function (event) {
+//   event.preventDefault();
+//   let number1 = parseInt(jQuery("#multiplication1").val());
+//   let number2 = parseInt(jQuery("#multiplication2").val());
+//   let result = multiplication(number1, number2);
+//   jQuery("#outp").text(result);
+// });
+
 //   //multiplication for multiplication it's not a must you put an intiger
 //   var multiply = function multiply(number1,number2) {
 //       return number1 * number2;
